@@ -43,6 +43,7 @@ heartRate < 100 ? console.log("Boost needed!"): console.log("Energy levels are h
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
+//Displaying correct output based on the currentTemp value
 currentTemp <= 5 ? console.log("Chilled to perfection!"): console.log("Needs a cooler!");
 
 
@@ -58,6 +59,8 @@ let currentHour = 22;
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
 
+//If the hour isn't between 7 and 24(only 7 included) then it displays to rather drink water
+currentHour >= 7 && currentHour < 24 ? console.log("Unleash the beast!"): console.log("Better stick to water.");
 
 
 
