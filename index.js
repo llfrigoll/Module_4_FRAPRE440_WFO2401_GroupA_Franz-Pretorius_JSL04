@@ -29,15 +29,13 @@ let cansLeft = 3; // Any number of cans
 //Ternary operation evaluating cansLeft and displaying the correct result
 cansLeft < 5 ? console.log("Time to restock!"): console.log("We're stocked!");
 
-
-
-
 // #### Challenge 3: Workout Intensity
 // Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. 
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+//Displaying correct output based on the heartRate value
+heartRate < 100 ? console.log("Boost needed!"): console.log("Energy levels are high!");
 
 
 // #### Challenge 4: Temperature Suitability
